@@ -16,8 +16,8 @@
   --primary-foreground: #0b0f14;
   --secondary: #1b2432;
   --secondary-foreground: #e6f0ff;
-  --glass: rgba(17, 24, 36, 0.72);
-  --glass-border: rgba(230, 240, 255, 0.08);
+  --glass: rgba(17, 24, 36, 0.35);
+  --glass-border: rgba(230, 240, 255, 0.12);
 }
 
 /* ── Base ── */

@@ -70,7 +70,7 @@ const audienceCards = [
 export function Evidence() {
   return (
     <ImageSection
-      bgImage="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1920&q=80"
+      bgImage="/heart.png"
       id="evidence"
     >
       <GlassPanel className="p-[60px] max-lg:p-9" id="who-for">
@@ -83,7 +83,7 @@ export function Evidence() {
               Grounded in evidence,<br />not opinion.
             </h2>
             <p className="text-[15px] leading-[1.8] text-muted mb-3.5">
-              At the heart of Value Lab AI is a continuously growing library of
+              At the heart of AIValueWorx is a continuously growing library of
               verified AI case studies drawn from real organisations across
               multiple sectors.
             </p>

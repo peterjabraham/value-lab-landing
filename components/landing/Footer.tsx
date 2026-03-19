@@ -4,7 +4,7 @@ export function Footer() {
       <div className="max-w-[1200px] mx-auto px-6">
         <div className="flex justify-between items-center flex-wrap gap-4">
           <div className="text-[13px] text-muted">
-            &copy; {new Date().getFullYear()} Value Lab AI &mdash;{" "}
+            &copy; {new Date().getFullYear()} AIValueWorx &mdash;{" "}
             <a
               href="mailto:hello@valuelabai.com"
               className="text-accent no-underline hover:underline"

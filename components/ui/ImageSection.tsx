@@ -19,8 +19,8 @@ function ImageSection({
         style={{ backgroundImage: `url('${bgImage}')` }}
       />
 
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/25 to-background/50" />
+      {/* Light overlay — just enough to keep text legible */}
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/10 to-background/30" />
 
       {/* Top fade to dark */}
       <div className="absolute top-0 left-0 right-0 h-[120px] z-[1] bg-gradient-to-b from-background to-transparent" />

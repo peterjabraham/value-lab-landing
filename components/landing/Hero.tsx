@@ -9,7 +9,7 @@ const stages = [
 export function Hero() {
   return (
     <ImageSection
-      bgImage="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80"
+      bgImage="/laptop.png"
       className="pt-[160px]"
     >
       <GlassPanel className="relative p-[60px] max-lg:p-9">
@@ -53,7 +53,7 @@ export function Hero() {
             <p className="text-lg leading-relaxed text-muted mb-8 max-w-[480px]">
               The gap between &ldquo;we should do something with AI&rdquo; and
               &ldquo;we&rsquo;re getting real results&rdquo; is where most
-              organisations stall. Value Lab AI helps you close it &mdash; with
+              organisations stall. AIValueWorx helps you close it &mdash; with
               evidence, structure, and business cases that actually get approved.
             </p>
             <div className="flex gap-3 items-center flex-wrap">

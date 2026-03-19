@@ -51,7 +51,7 @@ export function Nav() {
               V
             </div>
             <span className="text-lg font-black tracking-tight text-foreground">
-              Value Lab AI
+              AIValueWorx
             </span>
           </a>
 

@@ -39,7 +39,7 @@ const propositions = [
 export function HowItWorks() {
   return (
     <ImageSection
-      bgImage="https://images.unsplash.com/photo-1488229297570-58520851e868?auto=format&fit=crop&w=1920&q=80"
+      bgImage="/brain.png"
       id="how-it-works"
     >
       <GlassPanel className="p-[60px] max-lg:p-9">

@@ -15,14 +15,14 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Value Lab AI — From AI Interest to AI Outcomes",
+  title: "AIValueWorx — From AI Interest to AI Outcomes",
   description:
-    "The gap between 'we should do something with AI' and 'we're getting real results' is where most organisations stall. Value Lab AI helps you close it — with evidence, structure, and business cases that actually get approved.",
+    "The gap between 'we should do something with AI' and 'we're getting real results' is where most organisations stall. AIValueWorx helps you close it — with evidence, structure, and business cases that actually get approved.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
   ),
   openGraph: {
-    title: "Value Lab AI — From AI Interest to AI Outcomes",
+    title: "AIValueWorx — From AI Interest to AI Outcomes",
     description:
       "Close the AI value gap with evidence-backed business cases. From ambition to measurable returns.",
     type: "website",
