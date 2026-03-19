@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -41,18 +42,20 @@ export function Nav() {
           {/* Logo */}
           <a
             href="#"
-            className="flex items-center gap-2 no-underline"
+            className="flex items-center no-underline"
             onClick={(e) => {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            <div className="w-8 h-8 bg-accent rounded-sm flex items-center justify-center text-sm font-black text-black">
-              V
-            </div>
-            <span className="text-lg font-black tracking-tight text-foreground">
-              AIValueWorx
-            </span>
+            <Image
+              src="/logo.png"
+              alt="AIValueWorx"
+              width={130}
+              height={35}
+              className="w-[130px] h-auto"
+              priority
+            />
           </a>
 
           {/* Desktop links */}
