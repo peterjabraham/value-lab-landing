@@ -16,10 +16,10 @@ export function CTA() {
           with initial thoughts and a suggestion for how we might help.
         </p>
         <Button
-          href="mailto:hello@valuelabai.com"
+          href="mailto:hello@aivalueworx.com"
           className="text-lg px-9 py-4"
         >
-          hello@valuelabai.com{" "}
+          hello@aivalueworx.com{" "}
           <span className="transition-transform group-hover:translate-x-0.5">
             &rarr;
           </span>

@@ -6,10 +6,10 @@ export function Footer() {
           <div className="text-[13px] text-muted">
             &copy; {new Date().getFullYear()} AIValueWorx &mdash;{" "}
             <a
-              href="mailto:hello@valuelabai.com"
+              href="mailto:hello@aivalueworx.com"
               className="text-accent no-underline hover:underline"
             >
-              hello@valuelabai.com
+              hello@aivalueworx.com
             </a>
           </div>
           <div className="text-sm text-muted">
